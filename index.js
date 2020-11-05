@@ -81,8 +81,7 @@ Using the reviews array above:
   1. log only Julius' feedback to the console
 */
 
-
-
+console.log(reviews[5]["feedback"]);
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Using the reviews array above do the following:
