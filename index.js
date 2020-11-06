@@ -90,7 +90,6 @@ reviews.push({name: "Mikayla", rating: 0, feedback: "This was horrendous!"});
 
 console.log(reviews);
 
-
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Reyna's feedback is missing! Use what you know to do the following:
   1. Add this feedback to Reyna's rating - "this place is chill with really cool people, great for getting work done on weekdays"
@@ -112,12 +111,9 @@ Use the getReviewByIndex function below to do the following:
   For example: getReviewByIndex(reviews,0) would return: "Daniela gave the restaurant a 5 star review, and their feedback was: Beautiful atmosphere and wonderful vegan options!"
 */
 
-
-function getReviewByIndex(/*Your code here*/) {
-  /*Your code here*/
+function getReviewByIndex(array, index) {
+  return array[index]["name"] + " gave the restaurant a " + array[index]["rating"] + " star review, and their feedback was: " + array[index]["feedback"];
 }
-
-
   
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
@@ -131,8 +127,8 @@ Use the getLastReview function below to do the following:
 */
 
 
-function getLastReview(/*Your code here*/) {
-  /*Your code here*/
+function getLastReview(array) {
+  return array[array.length-1]["name"] + " gave the restaurant a " + array[array.length-1]["rating"] + " star review and, their feedback was: " + array[array.length-1]["feedback"];
 } 
 
 
